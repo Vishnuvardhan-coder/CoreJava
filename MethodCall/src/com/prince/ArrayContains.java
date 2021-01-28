@@ -20,9 +20,7 @@ public class ArrayContains {
 
 		int[] a = { 10, 20, 30, 40, 50 };
 
-		int value = 20;
-
-		System.out.println(findContains(a, value));
+		System.out.println(findContains(a, 20));
 
 	}
 
