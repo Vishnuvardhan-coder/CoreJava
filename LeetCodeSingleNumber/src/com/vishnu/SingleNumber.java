@@ -3,12 +3,15 @@ package com.vishnu;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Given a non-empty array of integers nums,
+every element appears twice except for one. 
+Find that single one.*/
 public class SingleNumber {
 
 	public static void main(String[] args) {
 
-//		int a[] = { 4, 1, 2, 1, 2 };
-		int a[] = {0,1,0,1,0,1,99};
+		int a[] = { 4, 1, 2, 1, 2 };
+	//	int a[] = {0,1,0,1,0,1,99};
 		
 		System.out.println(singleNumber(a));
 	}
